@@ -46,7 +46,7 @@ const Menubar = () => {
             </Link>
           </Nav.Item>
           <Nav.Item>
-            <Link to="/accounts" className="nav-link">
+            <Link to="/" className="nav-link">
               Login
             </Link>
           </Nav.Item>
