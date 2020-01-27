@@ -1,6 +1,6 @@
 import React from "react";
 import Menubar from "./component/layout/Menubar";
-import Routes from "./Routes";
+import AppRoute from "./routers/AppRoute";
 import "./App.css";
 
 class App extends React.Component {
@@ -8,7 +8,7 @@ class App extends React.Component {
     return (
       <>
         <Menubar />
-        <Routes />
+        <AppRoute />
       </>
     );
   }
