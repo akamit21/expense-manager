@@ -1,7 +1,7 @@
 import { LOGIN, LOGOUT } from "../actionTypes";
 
 /**
- * login action creator
+ * Login action creator
  */
 export const login = () => {
   return {
@@ -10,7 +10,7 @@ export const login = () => {
 };
 
 /**
- * logout action creator
+ * Logout action creator
  */
 export const logout = () => {
   return {
